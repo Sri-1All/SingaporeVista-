@@ -1,0 +1,575 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Marina Bay Sands",
+      "location": "Marina Bay",
+      "category": "Landmark",
+      "rating": 4.8,
+      "image": "/images/places/marina-bay-sands.jpg",
+      "description": "One of Singapore's most iconic landmarks, famous for its distinctive architecture and panoramic city views.",
+      "bestTime": "6:00 PM – 9:00 PM",
+      "experience": "City views & Nightscape"
+    },
+    {
+      "id": 2,
+      "name": "Gardens by the Bay",
+      "location": "Marina Bay",
+      "category": "Nature",
+      "rating": 4.9,
+      "image": "/images/places/gardens-by-the-bay.jpg",
+      "description": "A futuristic garden featuring the famous Supertrees, Flower Dome and Cloud Forest.",
+      "bestTime": "4:00 PM – 8:00 PM",
+      "experience": "Nature & Light Shows"
+    },
+    {
+      "id": 3,
+      "name": "Sentosa Island",
+      "location": "Sentosa",
+      "category": "Adventure",
+      "rating": 4.8,
+      "image": "/images/places/sentosa.jpg",
+      "description": "A vibrant island destination offering beaches, attractions, entertainment and adventure.",
+      "bestTime": "9:00 AM – 6:00 PM",
+      "experience": "Beach & Adventure"
+    },
+    {
+      "id": 4,
+      "name": "Jewel Changi Airport",
+      "location": "Changi",
+      "category": "Architecture",
+      "rating": 4.9,
+      "image": "/images/places/jewel-changi.jpg",
+      "description": "A spectacular lifestyle destination featuring the world's tallest indoor waterfall.",
+      "bestTime": "10:00 AM – 10:00 PM",
+      "experience": "Waterfall, Shopping & Gardens"
+    },
+    {
+      "id": 5,
+      "name": "Merlion Park",
+      "location": "Marina Bay",
+      "category": "Landmark",
+      "rating": 4.7,
+      "image": "/images/places/merlion-park.jpg",
+      "description": "Home to Singapore's famous Merlion statue overlooking Marina Bay.",
+      "bestTime": "5:00 PM – 8:00 PM",
+      "experience": "Iconic Views & Photography"
+    },
+    {
+      "id": 6,
+      "name": "Clarke Quay",
+      "location": "Singapore River",
+      "category": "Lifestyle",
+      "rating": 4.6,
+      "image": "/images/places/clarke-quay.jpg",
+      "description": "A lively riverside destination known for restaurants, entertainment and nightlife.",
+      "bestTime": "5:00 PM – 11:00 PM",
+      "experience": "Riverside Dining & Nightlife"
+    },
+
+    {
+    "id": 7,
+    "name": "Singapore Flyer",
+    "location": "Marina Bay",
+    "category": "Landmarks",
+    "rating": 4.6,
+    "image": "/images/places/singapore-flyer.jpg",
+    "description": "Enjoy spectacular panoramic views of Singapore from one of the world's giant observation wheels.",
+    "bestTime": "5:30 PM – 8:30 PM",
+    "experience": "Skyline Views & Sunset"
+  },
+  {
+    "id": 8,
+    "name": "Esplanade",
+    "location": "Marina Bay",
+    "category": "Landmarks",
+    "rating": 4.7,
+    "image": "/images/places/esplanade.jpg",
+    "description": "Singapore's distinctive performing arts centre, recognised for its unique architecture and waterfront location.",
+    "bestTime": "5:00 PM – 9:00 PM",
+    "experience": "Arts, Music & Waterfront Views"
+  },
+  {
+    "id": 9,
+    "name": "Helix Bridge",
+    "location": "Marina Bay",
+    "category": "Landmarks",
+    "rating": 4.6,
+    "image": "/images/places/helix-bridge.jpg",
+    "description": "A striking pedestrian bridge inspired by the structure of DNA and connecting Marina Bay attractions.",
+    "bestTime": "6:30 PM – 9:00 PM",
+    "experience": "Sunset, City Lights & Architecture"
+  },
+
+   {
+    "id": 10,
+    "name": "Sultan Mosque",
+    "location": "Kampong Glam",
+    "category": "Landmarks",
+    "rating": 4.8,
+    "image": "/images/places/sultan-mosque.jpg",
+    "description": "A historic mosque and one of the most recognisable landmarks in Singapore's Kampong Glam district.", "bestTime": "9:00 AM – 12:00 PM",
+    "experience": "Mosque Architecture & Malay Heritage"
+},
+
+  {
+    "id": 11,
+    "name": "Singapore Botanic Gardens",
+    "location": "Cluny Road",
+    "category": "Nature",
+    "rating": 4.8,
+    "image": "/images/places/botanic-gardens.jpg",
+    "description": "A beautiful tropical garden offering peaceful landscapes, diverse plants and walking trails.", 
+    "bestTime": "7:00 AM – 10:00 AM",
+    "experience": "Tropical Gardens & Peaceful Walks"
+  },
+
+  {
+    "id": 12,
+    "name": "MacRitchie Reservoir",
+    "location": "Central Singapore",
+    "category": "Nature",
+    "rating": 4.7,
+    "image": "/images/places/macritchie.jpg",
+    "description": "A lush natural escape known for forest trails, wildlife and the famous TreeTop Walk.",
+    "bestTime": "7:00 AM – 10:30 AM",
+    "experience": "Forest Trails & Reservoir Views"
+ },
+  {
+    "id": 13,
+    "name": "East Coast Park",
+    "location": "East Coast",
+    "category": "Nature",
+    "rating": 4.6,
+    "image": "/images/places/east-coast-park.jpg",
+    "description": "A scenic coastal park perfect for cycling, walking, relaxing and enjoying Singapore's seaside atmosphere.",
+    "bestTime": "5:00 PM – 8:00 PM",
+    "experience": "Seaside Cycling & Sunset"
+  },
+  {
+    "id": 14,
+    "name": "Pulau Ubin",
+    "location": "Northeast Singapore",
+    "category": "Nature",
+    "rating": 4.8,
+    "image": "/images/places/pulau-ubin.jpg",
+    "description": "A peaceful island offering a glimpse of Singapore's natural landscapes, cycling trails and rural heritage.",
+    "bestTime": "8:00 AM – 2:00 PM",
+    "experience": "Island Trails & Rustic Singapore"
+  },
+
+  {
+    "id": 15,
+    "name": "Little India",
+    "location": "Little India",
+    "category": "Culture",
+    "rating": 4.9,
+    "image": "/images/tamil/little-india.jpg",
+    "description": "A vibrant heritage district filled with Tamil culture, temples, traditional food, colourful streets and shopping.",
+    "bestTime": "9:00 AM – 12:00 PM",
+    "experience": "Indian Culture, Food & Street Life"
+},
+  {
+    "id": 16,
+    "name": "Sri Mariamman Temple",
+    "location": "Chinatown",
+    "category": "Culture",
+    "rating": 4.8,
+    "image": "/images/tamil/sri-mariamman.jpg",
+    "description": "Singapore's oldest Hindu temple and an important part of the city's Tamil cultural heritage.",
+    "bestTime": "5:00 PM – 8:00 PM",
+    "experience": "Hindu Heritage & Temple Art"
+ },
+  {
+    "id": 17,
+    "name": "Chinatown",
+    "location": "Central Singapore",
+    "category": "Culture",
+    "rating": 4.7,
+    "image": "/images/places/chinatown.jpg",
+    "description": "A historic neighbourhood where traditional architecture, temples, markets and modern Singapore meet.",
+    "bestTime": "5:00 PM – 9:00 PM",
+    "experience": "Heritage Streets & Local Flavours"
+},
+
+   {
+    "id": 18,
+    "name": "Kampong Glam",
+    "location": "Kampong Glam",
+    "category": "Culture",
+    "rating": 4.8,
+    "image": "/images/places/kampong-glam.jpg",
+    "description": "A colourful heritage neighbourhood known for its cultural history, street art, shops and cafés.",
+    "bestTime": "4:00 PM – 8:00 PM",
+    "experience": "Malay Heritage, Art & Haji Lane"
+  },
+  {
+    "id": 19,
+    "name": "Asian Civilisations Museum",
+    "location": "Empress Place",
+    "category": "Culture",
+    "rating": 4.7,
+    "image": "/images/places/asian-civilisations-museum.jpg",
+    "description": "Explore Asian art, history and cultural connections through fascinating collections and exhibitions.",
+    "bestTime": "10:00 AM – 1:00 PM",
+    "experience": "Asian Art & Cultural Heritage"
+},
+
+  {
+    "id": 20,
+    "name": "Universal Studios Singapore",
+    "location": "Sentosa Island",
+    "category": "Adventure",
+    "rating": 4.7,
+    "image": "/images/places/Universal-Studios.jpg",
+    "description": "A movie-themed park featuring exciting rides, shows and attractions for an unforgettable day.",
+    "bestTime": "10:00 AM – 5:00 PM",
+    "experience": "Thrilling Rides & Movie Worlds"
+},
+  {
+    "id": 21,
+    "name": "Adventure Cove Waterpark",
+    "location": "Sentosa Island",
+    "category": "Adventure",
+    "rating": 4.7,
+    "image": "/images/places/Adventure Cove Waterpark.jpg",
+    "description": "A water adventure destination featuring slides, pools, marine experiences and family activities.",
+    "bestTime": "10:00 AM – 4:00 PM",
+    "experience": "Water Rides & Tropical Fun"
+ },
+  {
+    "id": 22,
+    "name": "Skyline Luge",
+    "location": "Sentosa Island",
+    "category": "Adventure",
+    "rating": 4.6,
+    "image": "/images/places/Skyline Luge.jpg",
+    "description": "An exciting outdoor experience combining scenic chairlift rides with downhill luge tracks.",
+    "bestTime": "4:00 PM – 8:00 PM",
+    "experience": "Luge Rides & Island Views"
+},
+  {
+    "id": 23,
+    "name": "Mega Adventure Park",
+    "location": "Sentosa Island",
+    "category": "Adventure",
+    "rating": 4.6,
+    "image": "/images/places/mega-adventure.jpg",
+    "description": "An action-packed destination offering ziplining and aerial adventure experiences.",
+    "bestTime": "9:00 AM – 1:00 PM",
+    "experience": "Ziplining & Outdoor Adventure"
+}
+  ],
+
+  "attractions": [
+    {
+      "id": 1,
+      "name": "Universal Studios Singapore",
+      "category": "Theme Park",
+      "location": "Sentosa Island",
+      "rating": 4.7,
+      "image": "/images/attractions/universal-studios.jpg",
+      "description": "A movie-themed park featuring exciting rides, shows and attractions."
+    },
+    {
+      "id": 2,
+      "name": "Singapore Flyer",
+      "category": "Observation",
+      "location": "Marina Bay",
+      "rating": 4.6,
+      "image": "/images/attractions/singapore-flyer.jpg",
+      "description": "Enjoy spectacular views of Singapore from one of the world's giant observation wheels."
+    },
+    {
+      "id": 3,
+      "name": "Singapore Zoo",
+      "category": "Wildlife",
+      "location": "Mandai",
+      "rating": 4.8,
+      "image": "/images/attractions/singapore-zoo.jpg",
+      "description": "A world-renowned wildlife park with immersive animal habitats."
+    },
+    {
+      "id": 4,
+      "name": "Night Safari",
+      "category": "Wildlife",
+      "location": "Mandai",
+      "rating": 4.7,
+      "image": "/images/attractions/night-safari.jpg",
+      "description": "Experience wildlife after dark through specially designed trails and exhibits."
+    }
+  ],
+
+  "tamilHeritage": [
+    {
+      "id": 1,
+      "title": "Tamil Heritage in Singapore",
+      "category": "History",
+      "image": "/images/tamil/history.jpg",
+      "description": "Explore the history and contributions of the Tamil community to Singapore's development."
+    },
+    {
+      "id": 2,
+      "title": "Little India",
+      "category": "Culture",
+      "image": "/images/tamil/little-india.jpg",
+      "description": "Discover Singapore's vibrant Indian cultural district filled with heritage, food, temples and shopping."
+    },
+    {
+      "id": 3,
+      "title": "Sri Mariamman Temple",
+      "category": "Temple",
+      "image": "/images/tamil/sri-mariamman.jpg",
+      "description": "Explore one of Singapore's oldest Hindu temples and an important part of Tamil heritage."
+    },
+    {
+      "id": 4,
+      "title": "Tamil Language & Literature",
+      "category": "Language",
+      "image": "/images/tamil/tamil-language.jpg",
+      "description": "Discover the role of Tamil language, literature and education in Singapore."
+    }
+  ],
+
+  "festivals": [
+    {
+      "id": 1,
+      "name": "Pongal",
+      "category": "Tamil Festival",
+      "month": "January",
+      "image": "/images/festivals/pongal.jpg",
+      "description": "A harvest festival celebrated by the Tamil community with traditional food, decorations and cultural activities."
+    },
+    {
+      "id": 2,
+      "name": "Thaipusam",
+      "category": "Tamil Festival",
+      "month": "January / February",
+      "image": "/images/festivals/thaipusam.jpg",
+      "description": "A significant Hindu festival known for its religious observances and vibrant procession."
+    },
+    {
+      "id": 3,
+      "name": "Deepavali",
+      "category": "Festival of Lights",
+      "month": "October / November",
+      "image": "/images/festivals/deepavali.jpg",
+      "description": "The Festival of Lights transforms Little India with decorations, cultural events and celebrations."
+    },
+    {
+      "id": 4,
+      "name": "Chinese New Year",
+      "category": "Cultural Festival",
+      "month": "January / February",
+      "image": "/images/festivals/chinese-new-year.jpg",
+      "description": "A major celebration featuring traditional performances, decorations and festive markets."
+    },
+    {
+      "id": 5,
+      "name": "Hari Raya",
+      "category": "Cultural Festival",
+      "month": "Varies (Based on Islamic Calendar)",
+      "image": "/images/festivals/hari-raya.jpg",
+      "description": "A vibrant celebration marking the end of Ramadan with food, family gatherings and cultural traditions."
+    }
+  ],
+
+  "foods": [
+    {
+      "id": 1,
+      "name": "South Indian Dosa",
+      "category": "Tamil / South Indian",
+      "type": "Vegetarian",
+      "image": "/images/food/dosa.jpg",
+      "description": "A crispy South Indian favourite commonly enjoyed with sambar and chutneys."
+    },
+    {
+      "id": 2,
+      "name": "Biryani",
+      "category": "Indian",
+      "type": "Non-Vegetarian",
+      "image": "/images/food/biryani.jpg",
+      "description": "A fragrant rice dish enjoyed across Singapore's diverse food culture."
+    },
+    {
+      "id": 3,
+      "name": "Hainanese Chicken Rice",
+      "category": "Singaporean",
+      "type": "Non-Vegetarian",
+      "image": "/images/food/chicken-rice.jpg",
+      "description": "One of Singapore's most iconic dishes featuring tender chicken and fragrant rice."
+    },
+    {
+      "id": 4,
+      "name": "Laksa",
+      "category": "Peranakan",
+      "type": "Spicy",
+      "image": "/images/food/laksa.jpg",
+      "description": "A rich and spicy noodle soup that represents Singapore's multicultural food heritage."
+    },
+    {
+      "id": 5,
+      "name": "Satay",
+      "category": "Street Food",
+      "type": "Non-Vegetarian",
+      "image": "/images/food/satay.jpg",
+      "description": "Grilled skewered meat served with a flavourful peanut sauce."
+    },
+    {
+      "id": 6,
+      "name": "Filter Coffee",
+      "category": "Tamil / South Indian",
+      "type": "Beverage",
+      "image": "/images/food/filter-coffee.jpg",
+      "description": "A classic South Indian coffee experience enjoyed by many Tamil food lovers."
+    }
+  ],
+
+  "tamilVoices": [
+    {
+      "id": 1,
+      "name": "Aravinth Kumarasamy",
+      "category": "Tamil Artist",
+      "image": "/images/voices/artist.jpg",
+      "shortBio": "A creative voice contributing to Singapore's Tamil arts and cultural landscape.",
+      "story": "Discover the journey, work and cultural contributions of Tamil artists in Singapore.Aravinth Kumarasamy represents the creative spirit within Singapore's Tamil arts community. Through artistic expression and cultural work, he contributes to keeping Tamil traditions visible while connecting them with contemporary audiences. His work reflects how art can help preserve language, identity and heritage while allowing new generations to experience Tamil culture in fresh ways.",
+      "source": {
+        "name": "Apsaras Arts",
+        "url": "https://www.apsarasarts.com/"
+  }
+    },
+    {
+      "id": 2,
+      "name": "Mr. S. Chandra Das",
+      "category": "Tamil Entrepreneur",
+      "image": "/images/voices/entrepreneur.jpg",
+      "shortBio": "A business leader contributing to Singapore's diverse entrepreneurial community.",
+      "story": "Explore the journey of Tamil entrepreneurs building businesses and creating opportunities.Mr. S. Chandra Das represents the contribution of Tamil Singaporeans to business and entrepreneurship. His journey reflects the role of enterprise in creating opportunities, building professional networks and contributing to Singapore's wider economy. Stories like his show how members of the Tamil community have participated in the country's development while maintaining strong cultural connections",
+      "source": {
+        "name": "Nanyang Technological University (NTU Singapore)",
+        "url": "https://www.ntu.edu.sg/about-us/the-chancellery/mr-s.-chandra-das"
+  }
+},
+    {
+      "id": 3,
+      "name": "Jayanthi Sankar ",
+      "category": "Tamil Writer",
+      "image": "/images/voices/writer.jpg",
+      "shortBio": "A literary voice helping preserve and evolve Tamil writing in Singapore.",
+      "story": "Explore Tamil literature, storytelling and creative expression in Singapore.Jayanthi Sankar is a writer whose literary work contributes to Singapore's multicultural storytelling landscape. Through fiction and creative writing, she explores everyday experiences, identity, culture and life in a changing society. Her work demonstrates how literature can preserve cultural perspectives while also creating space for new ideas and conversations.",
+      "source": {
+        "name": "Jayanthi Sankar's Official Website",
+        "url": "https://jayanthisankar.com/"
+       }
+    },
+    {
+      "id": 4,
+      "name": "Na Govindasamy",
+      "category": "Tamil Academic and writer",
+      "image": "/images/voices/academic.jpg",
+      "shortBio": "A Singaporean educator, writer and Tamil scholar who contributed to Tamil literature and digital Tamil development.",
+      "story": "Na Govindasamy was an educator, writer and lecturer at Singapore's National Institute of Education. He played an important role in Singapore's Tamil literary scene, writing plays, dramas and short stories, while also contributing to the development of Tamil computing and digital Tamil resources. His work connected education, literature and technology, leaving a lasting mark on Tamil culture in Singapore.",
+      "source": {
+        "name": "NA Govindasamy - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Na_Govindasamy"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Tharman Shanmugaratnam",
+      "category": "Tamil Community Leader",
+      "image": "/images/voices/community-leader.jpg",
+      "shortBio": "A community contributor working to connect people and preserve cultural identity. His leadership and public service reflect Singapore's diverse and multicultural society.",
+      "story": "Learn about community initiatives and cultural preservation. Tharman Shanmugaratnam is a prominent Singaporean public figure who has served in senior public leadership roles. His Tamil heritage is part of Singapore's multicultural identity and reflects the country's diverse social fabric. His public career also represents the participation of Singapore's Indian and Tamil communities in the country's civic and public life.",
+       "source": {
+        "name": "Tharman Shanmugaratnam - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tharman_Shanmugaratnam"
+     }
+    },
+    {
+      "id": 6,
+      "name": "Shabir Sulthan",
+      "category": "Tamil Singer & Composer",
+      "image": "/images/voices/singer.jpg",
+      "shortBio": "An award-winning Singaporean singer-songwriter, composer and performer who has helped bring Tamil music to wider audiences.",
+      "story": "Shabir Sulthan is an award-winning Singaporean composer, singer-songwriter and actor. He became the inaugural winner of Vasantham Star in 2005 and has built a career across Singapore and India. His music blends Tamil and South Asian influences with contemporary sounds, while his work has also connected Singapore's Tamil music scene with wider audiences. He is known for songs including Yaayum and for his contributions to Singapore's National Day celebrations.",
+      "source": {
+        "name": "Shabir Sulthan - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Shabir_Sulthan"
+      }
+}
+  ],
+
+  "packages": [
+    {
+      "id": 1,
+      "name": "Singapore Explorer",
+      "duration": "4 Days / 3 Nights",
+      "price": 45999,
+      "image": "/images/packages/singapore-explorer.jpg",
+      "places": [
+        "Marina Bay Sands",
+        "Gardens by the Bay",
+        "Sentosa Island",
+        "Universal Studios Singapore"
+      ],
+      "description": "A complete Singapore experience covering iconic attractions and entertainment."
+    },
+    {
+      "id": 2,
+      "name": "Singapore Cultural Journey",
+      "duration": "5 Days / 4 Nights",
+      "price": 52999,
+      "image": "/images/packages/cultural-journey.jpg",
+      "places": [
+        "Little India",
+        "Sri Mariamman Temple",
+        "Chinatown",
+        "Marina Bay",
+        "Gardens by the Bay"
+      ],
+      "description": "Explore Singapore's multicultural heritage with a special focus on Tamil culture."
+    },
+    {
+      "id": 3,
+      "name": "Singapore Family Escape",
+      "duration": "5 Days / 4 Nights",
+      "price": 64999,
+      "image": "/images/packages/family-escape.jpg",
+      "places": [
+        "Universal Studios Singapore",
+        "Singapore Zoo",
+        "Sentosa Island",
+        "Jewel Changi Airport"
+      ],
+      "description": "A family-friendly trip packed with entertainment, wildlife and unforgettable experiences."
+    }
+  ],
+
+  "travelTips": [
+    {
+      "id": 1,
+      "title": "Getting Around",
+      "category": "Transport",
+      "description": "Singapore's MRT and public bus network makes travelling around the city convenient."
+    },
+    {
+      "id": 2,
+      "title": "Singapore Currency",
+      "category": "Money",
+      "description": "The Singapore Dollar (SGD) is the official currency."
+    },
+    {
+      "id": 3,
+      "title": "Best Time to Visit",
+      "category": "Weather",
+      "description": "Singapore is a year-round destination with a tropical climate."
+    },
+    {
+      "id": 4,
+      "title": "Travel Responsibly",
+      "category": "Travel Tips",
+      "description": "Respect local laws, cultural spaces and Singapore's clean public environment."
+    }
+  ]
+}

@@ -1,24 +1,62 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
+import Home from "./pages/Home";
+import Explore from "./pages/Explore";
+import TamilHeritage from "./pages/TamilHeritage";
+import FestivalsFood from "./pages/FestivalsFood";
+import TamilVoices from "./pages/TamilVoices";
+import TripPlanner from "./pages/TripPlanner";
+import SingaporeGuide from "./pages/SingaporeGuide";
+import BookNow from "./pages/BookNow";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+
+      <Navbar />
+      
+      <Routes>
+
+        <Route path="/" element={<Home />} />
+
+        <Route path="/explore" element={<Explore />} />
+
+        <Route
+          path="/tamil-heritage"
+          element={<TamilHeritage />}
+        />
+
+        <Route
+          path="/festivals-food"
+          element={<FestivalsFood />}
+        />
+
+        <Route
+          path="/tamil-voices"
+          element={<TamilVoices />}
+        />
+
+        <Route
+          path="/trip-planner"
+          element={<TripPlanner />}
+        />
+
+        <Route
+          path="/singapore-guide"
+          element={<SingaporeGuide />}
+        />
+
+        <Route 
+          path="/book-now"
+          element={<BookNow />}
+        />
+
+      </Routes>
+         <Footer />
+         
+    </BrowserRouter>
   );
 }
 
