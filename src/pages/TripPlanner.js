@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import data from "../data/record.json";
 import Currency from "../components/Currency";
@@ -6,13 +6,7 @@ import SingaporeMap from "../components/Map";
 
 function TripPlanner() {
 
-  const [days] = useState(3);
-
-  const [interests] = useState([
-    "Heritage",
-    "Food"
-  ]);
-
+  const days = 3;
 
   /* --------------------------------------------------
      Get places from record.json
@@ -20,13 +14,11 @@ function TripPlanner() {
 
   const places = data.places || [];
 
-
   /* --------------------------------------------------
      Create itinerary based on selected days
   -------------------------------------------------- */
 
   const itineraryPlaces = places.slice(0, days * 2);
-
 
   const getDayPlaces = (day) => {
 
@@ -36,11 +28,9 @@ function TripPlanner() {
 
   };
 
-
   return (
 
     <main>
-
 
       {/* ==================================================
           HERO VIDEO
@@ -119,7 +109,6 @@ function TripPlanner() {
       </section>
 
 
-
       {/* ==================================================
           INTRO
       ================================================== */}
@@ -147,7 +136,6 @@ function TripPlanner() {
         </div>
 
       </section>
-
 
 
       {/* ==================================================
@@ -184,7 +172,6 @@ function TripPlanner() {
           </div>
 
 
-
           {/* Travel Tool Cards */}
 
           <div className="grid md:grid-cols-3 gap-7">
@@ -211,20 +198,22 @@ function TripPlanner() {
                 and other interesting locations across Singapore.
               </p>
 
-            <button
-  onClick={() =>
-    document.getElementById("singapore-map")?.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    })
-  }
-  className="inline-block mt-6 bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-full font-semibold transition"
->
-  Explore Map
-</button>
+
+              <button
+                onClick={() =>
+                  document
+                    .getElementById("singapore-map")
+                    ?.scrollIntoView({
+                      behavior: "smooth",
+                      block: "start",
+                    })
+                }
+                className="inline-block mt-6 bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-full font-semibold transition"
+              >
+                Explore Map
+              </button>
 
             </div>
-
 
 
             {/* ==================================================
@@ -265,7 +254,6 @@ function TripPlanner() {
             </div>
 
 
-
             {/* ==================================================
                 WEATHER
             ================================================== */}
@@ -304,7 +292,6 @@ function TripPlanner() {
       </section>
 
 
-
       {/* ==================================================
           CURRENCY CONVERTER
       ================================================== */}
@@ -318,105 +305,118 @@ function TripPlanner() {
 
       </section>
 
-      <section>
-       <SingaporeMap />
+
+      {/* ==================================================
+          SINGAPORE MAP
+      ================================================== */}
+
+      <section id="singapore-map">
+
+        <SingaporeMap />
+
       </section>
 
 
+      {/* ==================================================
+          YOUR SINGAPORE PLAN
+      ================================================== */}
 
-     {/* ==================================================
-    YOUR SINGAPORE PLAN
-================================================== */}
+      <section className="py-20 bg-green-800 text-white">
 
-<section className="py-20 bg-green-800 text-white">
+        <div className="max-w-7xl mx-auto px-6">
 
-  <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center max-w-3xl mx-auto mb-12">
 
-    <div className="text-center max-w-3xl mx-auto mb-12">
-
-      <p className="text-green-300 uppercase tracking-widest font-semibold mb-3">
-        Your Singapore Plan
-      </p>
-
-      <h2 className="text-4xl md:text-5xl font-bold text-white">
-        Make every part of your journey count
-      </h2>
-
-      <p className="text-gray-400 text-lg leading-8 mt-5">
-        From iconic attractions to local flavours, discover
-        different sides of Singapore and create memories your way.
-      </p>
-
-    </div>
+            <p className="text-green-300 uppercase tracking-widest font-semibold mb-3">
+              Your Singapore Plan
+            </p>
 
 
-    <div className="grid md:grid-cols-3 gap-7">
+            <h2 className="text-4xl md:text-5xl font-bold text-white">
+              Make every part of your journey count
+            </h2>
 
-      {/* Discover */}
 
-      <div className="bg-gray-50 rounded-[2rem] p-8 border border-gray-100">
+            <p className="text-gray-400 text-lg leading-8 mt-5">
+              From iconic attractions to local flavours, discover
+              different sides of Singapore and create memories your way.
+            </p>
 
-        <div className="w-14 h-14 rounded-2xl bg-green-50 flex items-center justify-center text-3xl mb-6">
-          📍
+          </div>
+
+
+          <div className="grid md:grid-cols-3 gap-7">
+
+            {/* Discover */}
+
+            <div className="bg-gray-50 rounded-[2rem] p-8 border border-gray-100">
+
+              <div className="w-14 h-14 rounded-2xl bg-green-50 flex items-center justify-center text-3xl mb-6">
+                📍
+              </div>
+
+
+              <h3 className="text-2xl font-bold text-gray-900">
+                Discover
+              </h3>
+
+
+              <p className="text-gray-600 leading-7 mt-4">
+                Visit iconic landmarks, hidden gems and historic
+                neighbourhoods across Singapore.
+              </p>
+
+            </div>
+
+
+            {/* Experience */}
+
+            <div className="bg-gray-50 rounded-[2rem] p-8 border border-gray-100">
+
+              <div className="w-14 h-14 rounded-2xl bg-green-50 flex items-center justify-center text-3xl mb-6">
+                🍜
+              </div>
+
+
+              <h3 className="text-2xl font-bold text-gray-900">
+                Experience
+              </h3>
+
+
+              <p className="text-gray-600 leading-7 mt-4">
+                Taste local food, experience Singapore's cultures
+                and explore the traditions that make the city unique.
+              </p>
+
+            </div>
+
+
+            {/* Explore */}
+
+            <div className="bg-gray-50 rounded-[2rem] p-8 border border-gray-100">
+
+              <div className="w-14 h-14 rounded-2xl bg-green-50 flex items-center justify-center text-3xl mb-6">
+                🧭
+              </div>
+
+
+              <h3 className="text-2xl font-bold text-gray-900">
+                Explore Freely
+              </h3>
+
+
+              <p className="text-gray-600 leading-7 mt-4">
+                Use our travel tools to check locations, weather and
+                currency while planning your Singapore adventure.
+              </p>
+
+            </div>
+
+          </div>
+
         </div>
 
-        <h3 className="text-2xl font-bold text-gray-900">
-          Discover
-        </h3>
-
-        <p className="text-gray-600 leading-7 mt-4">
-          Visit iconic landmarks, hidden gems and historic
-          neighbourhoods across Singapore.
-        </p>
-
-      </div>
-
-
-      {/* Experience */}
-
-      <div className="bg-gray-50 rounded-[2rem] p-8 border border-gray-100">
-
-        <div className="w-14 h-14 rounded-2xl bg-green-50 flex items-center justify-center text-3xl mb-6">
-          🍜
-        </div>
-
-        <h3 className="text-2xl font-bold text-gray-900">
-          Experience
-        </h3>
-
-        <p className="text-gray-600 leading-7 mt-4">
-          Taste local food, experience Singapore's cultures
-          and explore the traditions that make the city unique.
-        </p>
-
-      </div>
-
-
-      {/* Explore */}
-
-      <div className="bg-gray-50 rounded-[2rem] p-8 border border-gray-100">
-
-        <div className="w-14 h-14 rounded-2xl bg-green-50 flex items-center justify-center text-3xl mb-6">
-          🧭
-        </div>
-
-        <h3 className="text-2xl font-bold text-gray-900">
-          Explore Freely
-        </h3>
-
-        <p className="text-gray-600 leading-7 mt-4">
-          Use our travel tools to check locations, weather and
-          currency while planning your Singapore adventure.
-        </p>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
+      </section>
 
 
       {/* ==================================================
@@ -448,7 +448,6 @@ function TripPlanner() {
           </div>
 
 
-
           {/* Days */}
 
           <div className="space-y-8">
@@ -456,7 +455,6 @@ function TripPlanner() {
             {Array.from({ length: days }, (_, index) => {
 
               const day = index + 1;
-
               const dayPlaces = getDayPlaces(day);
 
 
@@ -482,7 +480,6 @@ function TripPlanner() {
                     </h3>
 
                   </div>
-
 
 
                   {/* Places */}
@@ -554,7 +551,6 @@ function TripPlanner() {
       </section>
 
 
-
       {/* ==================================================
           TRAVEL STYLE
       ================================================== */}
@@ -584,7 +580,6 @@ function TripPlanner() {
           </div>
 
 
-
           <div className="grid md:grid-cols-3 gap-7">
 
 
@@ -610,7 +605,6 @@ function TripPlanner() {
             </div>
 
 
-
             {/* Food */}
 
             <div className="bg-orange-50 rounded-[2rem] p-8 border border-orange-100">
@@ -631,7 +625,6 @@ function TripPlanner() {
               </p>
 
             </div>
-
 
 
             {/* Nature */}
@@ -660,7 +653,6 @@ function TripPlanner() {
         </div>
 
       </section>
-
 
 
       {/* ==================================================
@@ -696,7 +688,6 @@ function TripPlanner() {
               </video>
 
             </div>
-
 
 
             {/* Tips */}
@@ -742,7 +733,6 @@ function TripPlanner() {
                 </div>
 
 
-
                 {/* Tip 02 */}
 
                 <div className="flex gap-4">
@@ -767,7 +757,6 @@ function TripPlanner() {
                   </div>
 
                 </div>
-
 
 
                 {/* Tip 03 */}
@@ -807,7 +796,6 @@ function TripPlanner() {
       </section>
 
 
-
       {/* ==================================================
           BEFORE YOU TRAVEL
       ================================================== */}
@@ -839,7 +827,6 @@ function TripPlanner() {
           </div>
 
 
-
           {/* Essential Cards */}
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -867,7 +854,6 @@ function TripPlanner() {
             </div>
 
 
-
             {/* Money */}
 
             <div className="bg-white rounded-[2rem] p-7 border border-gray-100 shadow-sm hover:shadow-md transition">
@@ -888,7 +874,6 @@ function TripPlanner() {
               </p>
 
             </div>
-
 
 
             {/* Transport */}
@@ -913,7 +898,6 @@ function TripPlanner() {
             </div>
 
 
-
             {/* Weather */}
 
             <div className="bg-white rounded-[2rem] p-7 border border-gray-100 shadow-sm hover:shadow-md transition">
@@ -935,6 +919,7 @@ function TripPlanner() {
 
             </div>
 
+
           </div>
 
         </div>
@@ -945,6 +930,7 @@ function TripPlanner() {
     </main>
 
   );
+
 }
 
 export default TripPlanner;

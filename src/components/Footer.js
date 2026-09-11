@@ -132,28 +132,34 @@ function Footer() {
             {/* Social Icons */}
             <div className="flex gap-3 mt-6">
 
-              <a
-                href="#"
-                className="w-10 h-10 rounded-lg border border-gray-800 bg-gray-900 flex items-center justify-center text-gray-400 hover:text-white hover:border-green-600 hover:bg-green-700 transition-all duration-300"
-              >
-                f
-              </a>
+  <a
+    href="https://www.facebook.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 rounded-lg border border-gray-800 bg-gray-900 flex items-center justify-center text-gray-400 hover:text-white hover:border-green-600 hover:bg-green-700 transition-all duration-300"
+  >
+    f
+  </a>
 
-              <a
-                href="#"
-                className="w-10 h-10 rounded-lg border border-gray-800 bg-gray-900 flex items-center justify-center text-gray-400 hover:text-white hover:border-green-600 hover:bg-green-700 transition-all duration-300"
-              >
-                ◎
-              </a>
+  <a
+    href="https://www.instagram.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 rounded-lg border border-gray-800 bg-gray-900 flex items-center justify-center text-gray-400 hover:text-white hover:border-green-600 hover:bg-green-700 transition-all duration-300"
+  >
+    ◎
+  </a>
 
-              <a
-                href="#"
-                className="w-10 h-10 rounded-lg border border-gray-800 bg-gray-900 flex items-center justify-center text-gray-400 hover:text-white hover:border-green-600 hover:bg-green-700 transition-all duration-300"
-              >
-                X
-              </a>
+  <a
+    href="https://x.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 rounded-lg border border-gray-800 bg-gray-900 flex items-center justify-center text-gray-400 hover:text-white hover:border-green-600 hover:bg-green-700 transition-all duration-300"
+  >
+    X
+  </a>
 
-            </div>
+</div>
 
           </div>
 
