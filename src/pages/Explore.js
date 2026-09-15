@@ -3,18 +3,17 @@ import { Link } from "react-router-dom";
 import data from "../data/record.json";
 import PlaceCard from "../components/PlaceCard";
 
+// --------------------------------------------------
+// Hero Carousel Images
+// --------------------------------------------------
+
+const heroImages = [
+  "/images/places/chinatown.jpg",
+  "/images/places/marina-bay-sands.jpg",
+  "/images/places/Universal-Studios.jpg"
+];
+
 function Explore() {
-
-  // --------------------------------------------------
-  // Hero Carousel
-  // --------------------------------------------------
-
-  const heroImages = [
-    "/images/places/chinatown.jpg",
-    "/images/places/marina-bay-sands.jpg",
-    "/images/places/Universal-Studios.jpg"
-    
-  ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -31,7 +30,6 @@ function Explore() {
     return () => clearInterval(interval);
 
   }, []);
-
 
   // --------------------------------------------------
   // Search & Category Filter
