@@ -1,4 +1,4 @@
-# 🇸🇬 SingaporeVista – Singapore Tourism & Travel Web Application
+<img src="https://flagcdn.com/w40/sg.png" width="30" alt="Singapore Flag"> <strong>SingaporeVista – Singapore Tourism & Travel Web Application</strong>
  
 SingaporeVista is a **React-based tourism and travel web application** designed to help users explore Singapore's attractions, historical places, festivals, food, cultural heritage, and travel information through an interactive and responsive interface.
  
